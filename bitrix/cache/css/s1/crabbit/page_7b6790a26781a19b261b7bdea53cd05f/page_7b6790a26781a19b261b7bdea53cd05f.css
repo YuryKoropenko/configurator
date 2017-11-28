@@ -1,0 +1,165 @@
+
+
+/* Start:/local/templates/crabbit/components/bitrix/breadcrumb/breadcrumb/style.css?150796670942*/
+.breadcrumb li {
+	display: inline-block;
+}
+/* End */
+
+
+/* Start:/local/templates/crabbit/components/bitrix/news.list/benefits/style.css?1507966709150*/
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+/* End */
+
+
+/* Start:/local/templates/crabbit/components/bitrix/news.list/certificates/style.css?1507966709150*/
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+/* End */
+
+
+/* Start:/local/templates/crabbit/components/bitrix/news.list/partners/style.css?1507966709150*/
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+/* End */
+
+
+/* Start:/local/templates/crabbit/components/ammc/main.feedback/callback/style.css?15080560401898*/
+div.mfeedback {
+}
+
+div.mf-name, div.mf-email, div.mf-captcha, div.mf-message {
+    width: 80%;
+    padding-bottom: 0.4em;
+}
+
+div.mf-name input, div.mf-email input {
+    width: 60%;
+}
+
+div.mf-message textarea {
+    width: 60%;
+}
+
+span.mf-req {
+    color: red;
+}
+
+div.mf-ok-text {
+    color: green;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+.after-send {
+    transform: scaleY(0);
+    transform-origin: top;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    top: 0;
+    left: 0;
+    text-align: center;
+    transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+.after-send.after-send_active {
+    transform: scaleY(1);
+    opacity: 1;
+    transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+.after-send:before {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    margin-left: -1px;
+    vertical-align: middle;
+}
+
+.after-send p {
+    display: inline-block;
+    max-width: 97%;
+    vertical-align: middle;
+    font-size: 24px;
+}
+.form__box {
+    width: 100%;
+    position: relative;
+    transition: padding 0.25s ease-in-out 0.25s;
+}
+.error-massage {
+    margin: -10px 0 0 0;
+    padding: 0;
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #e16b6f;
+    transition: opacity 0.15s ease-in-out, transform 0.25s ease-in-out;
+}
+.form__box.error {
+    padding-top: 10px;
+    transition: padding 0.25s ease-in-out;
+}
+.form__box.error .error-massage {
+    opacity: 1;
+    transform: scaleX(1);
+    transition: opacity 0.25s ease-in-out 0.25s, transform 0.25s ease-in-out 0.25s;
+}
+.label-iagree {
+    display: inline-block;
+    position: relative;
+}
+.label-iagree .iagree {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+.label-iagree a {
+    text-decoration: underline;
+}
+/* End */
+/* /local/templates/crabbit/components/bitrix/breadcrumb/breadcrumb/style.css?150796670942 */
+/* /local/templates/crabbit/components/bitrix/news.list/benefits/style.css?1507966709150 */
+/* /local/templates/crabbit/components/bitrix/news.list/certificates/style.css?1507966709150 */
+/* /local/templates/crabbit/components/bitrix/news.list/partners/style.css?1507966709150 */
+/* /local/templates/crabbit/components/ammc/main.feedback/callback/style.css?15080560401898 */
